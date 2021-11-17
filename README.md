@@ -16,4 +16,7 @@ yarn prisma init
 yarn add dotenv
 
 yarn prisma migrate dev
+
+yarn add socket.io e @types/socket.io -D
+yarn add cors e yarn add @types/cors -D
 ```
