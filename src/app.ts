@@ -22,10 +22,8 @@ io.on("connection", socket => {
 
 // para usar json nas req
 app.use(express.json());
-const port = 4000;
+
 
 app.use(router);
 
-
-
-severHttp.listen(port, () => console.log(`Server is running in: ${port}`));
+export { severHttp, io };
